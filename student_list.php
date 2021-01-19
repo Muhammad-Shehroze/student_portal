@@ -1,6 +1,6 @@
 <?php
     require_once 'include/config.php';
-    $name = '';
+    $name = '';//hell fun
     $location = '';
     $update = false;
     $id = 0;
