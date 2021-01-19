@@ -13,7 +13,12 @@ if (isset($_POST['button_upload']) && isset($_SESSION['admin_user'])) {
         mysqli_query($database_connection, $add_student_query);
         move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$file_name);
         header("location: student_list.php");
-     }
+     }//hell
+
+
+
+
+     
 }
 else if (!isset($_SESSION['admin_user']))
   header("location: index.php");
