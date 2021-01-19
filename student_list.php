@@ -28,7 +28,7 @@
 <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
 <div class="content">
 <div class="main">
-    <h3>Student List
+    <h3>Student List <?php echo "hello World";?>
     <a href="add_student.php"
         class="btn btn-info" style="float: right;">Add Student</a></h3>
     
